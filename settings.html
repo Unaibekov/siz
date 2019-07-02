@@ -1,0 +1,235 @@
+<html><head>
+  <meta charset="utf-8">
+  <title>main</title>
+  <meta name="viewport" content="initial-scale=1.0">
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css&#10;&lt;!-- Latest compiled and minified CSS --&gt;&#10;&lt;link rel=" stylesheet"="" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+
+<link rel="stylesheet" href="css/index.css">
+<script src="js/jquery.drawsvg.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+<div class="container">       
+    <div class="header jcc">
+        <div class="header-title">Настройки</div>
+        <div class="main-menu">
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+            <label class="btn-menu" for="hmt">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+            <div class="hidden-menu">
+                <div class="jcb column height">
+                    <div class="profile jca column">
+                        <div class="avatar"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="name">Иван Иванов</div>
+                        <div class="fast-menu jcc">
+                            <a href="message.html" class="fast-menu-block">
+                                <svg class="evendodd icon" width="23px" height="23px" viewBox="0 0 2400 2400">
+                                <path class="fil0" d="M1196 60c666,0 1204,516 1204,1144 0,636 -538,1144 -1204,1144 -225,0 -434,-56 -610,-161l-530 161 137 -524c-121,-177 -193,-394 -193,-628 0,-636 538,-1144 1204,-1144l-8 8zm-361 1482c-32,0 -64,-16 -89,-32 -24,-24 -32,-48 -32,-88 0,-33 16,-65 32,-89 25,-24 49,-32 89,-32l722 0c32,0 64,16 89,32 24,24 40,56 40,89 0,32 -16,64 -32,88 -25,24 -49,32 -89,32l-722 0 -8 0zm-201 -435c-32,0 -64,-16 -80,-40 -24,-24 -40,-56 -40,-81 0,-32 16,-64 32,-88 24,-24 56,-32 88,-32l1124 0c32,0 64,16 88,32 24,24 32,48 32,88 0,33 -16,65 -40,81 -24,24 -56,40 -80,40l-1124 0z"/>
+                                </svg>
+                            </a>
+                            <a href="settings.html" class="fast-menu-block">
+                                <svg class="evendodd icon" width="23px" height="23px" viewBox="0 0 2400 2400">
+                                <path class="fil0" d="M2394 1075c-8,-32 -40,-56 -80,-56 -112,0 -208,-64 -249,-169 -40,-104 -16,-224 65,-296 24,-24 32,-64 8,-88 -56,-72 -121,-137 -193,-193 -24,-24 -64,-16 -88,8 -72,81 -200,113 -296,65 -105,-41 -169,-145 -161,-265 0,-32 -24,-64 -56,-72 -88,-8 -184,-8 -272,0 -32,0 -64,32 -56,72 8,112 -64,216 -169,256 -96,41 -224,9 -296,-72 -24,-24 -64,-32 -88,-8 -72,56 -137,121 -193,193 -24,24 -16,64 8,88 89,72 113,200 65,296 -41,97 -145,161 -265,161 -40,0 -64,24 -72,56 -8,88 -8,184 0,272 0,32 48,56 80,56 104,0 208,64 249,169 40,104 16,224 -65,296 -24,24 -32,64 -8,88 56,72 121,137 193,193 24,24 64,16 88,-8 72,-80 200,-113 296,-65 105,41 169,153 161,265 0,32 24,64 56,72 48,8 96,8 136,8 48,0 88,0 136,-8 32,-8 64,-32 56,-72 -8,-112 64,-216 169,-256 96,-41 224,-9 296,72 24,24 64,32 88,8 72,-56 137,-121 193,-193 24,-24 16,-64 -8,-88 -89,-72 -113,-200 -65,-296 41,-97 137,-161 249,-161l16 0c32,0 64,-24 72,-56 8,-88 8,-184 0,-272zm-1194 537c-224,0 -401,-185 -401,-401 0,-224 177,-401 401,-401 224,0 401,177 401,401 0,224 -185,401 -401,401z"/>
+                                </svg>
+                            </a>
+                            <div class="fast-menu-block">
+                                <svg class="evendodd icon" width="23px" height="23px" viewBox="0 0 2400 2400">
+                                <path class="fil0" d="M2346 1897l-370 -371c-74,-73 -196,-71 -273,5l-187 187c-11,-7 -24,-13 -37,-21 -117,-65 -279,-155 -449,-325 -170,-170 -260,-331 -325,-449 -7,-13 -14,-25 -20,-36l125 -126 62 -61c76,-77 78,-199 5,-273l-371 -371c-74,-73 -196,-71 -273,6l-104 105 3 2c-35,45 -64,97 -86,152 -20,53 -33,104 -39,154 -48,406 137,777 640,1280 696,696 1256,643 1281,641 52,-7 103,-19 154,-39 55,-22 107,-51 151,-86l3 2 105 -104c77,-76 79,-198 5,-272z"/>
+                                </svg>
+                            </div>
+                            <div class="animation start-home"></div>
+                        </div>
+                    </div>            
+                    <div class="main-menu-content">
+                        <ul class="accordion-menu">
+                            <div class="block-devider dflex">
+                                <div class="devider"></div>
+                                <div style="color: #afc1c7; font-size: 13px;">СИЗ-ТАТНЕФТЬ</div>
+                            </div>
+                        <li>
+                            <div class="dropdownlink">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M296 56l-57 -26c-12,-4 -25,-7 -37,-10 -4,-1 -7,2 -8,5 -5,20 -22,35 -44,35 -22,0 -39,-15 -44,-35 -1,-4 -4,-6 -8,-5 -13,2 -25,6 -37,10l-57 26c-3,2 -5,6 -3,9l25 49c1,2 4,4 6,4 1,0 1,0 2,0l28 -8 0 24 178 0 0 -24 28 8c1,0 1,0 2,0 3,0 5,-2 6,-4l25 -49c2,-3 0,-8 -3,-9zm-235 98l0 34 178 0 0 -34 -178 0zm0 55l0 66c0,4 3,7 7,7l164 0c4,0 7,-3 7,-7l0 -66 -178 0z"/>
+                                </svg>Спецодежда
+                            </div>
+                            <ul class="submenuItems">
+                                <li><a href="index.html">Моя</a></li>
+                                <li><a href="siz-subject.html">Подчиненных</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="medosmotr.html" class="dropdown">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M220 19c-36,0 -58,25 -70,47 -12,-22 -35,-47 -70,-47 -45,0 -80,37 -80,85 0,13 3,24 7,36l67 0 15 -30c3,-6 13,-6 16,0l27 55 10 -19c3,-6 13,-6 16,0l10 19 27 -55c3,-6 13,-6 16,0l15 30 67 0c5,-11 7,-23 7,-36 0,-49 -35,-85 -80,-85zm0 138c-3,0 -6,-2 -8,-5l-10 -20 -27 55c-2,3 -5,5 -8,5 -3,0 -6,-2 -8,-5l-10 -19 -10 19c-3,6 -13,6 -16,0l-27 -55 -10 20c-1,3 -5,5 -8,5l-63 0c18,29 51,56 91,90 12,10 24,20 36,31 2,2 4,2 6,2 2,0 4,-1 6,-2 13,-11 25,-21 36,-31 41,-34 73,-61 91,-90l-63 0z"/>
+                                </svg>Медосмотр
+                            </a>
+                        </li>
+                        <li>
+                            <div class="dropdownlink">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M220 19c-36,0 -58,25 -70,47 -12,-22 -35,-47 -70,-47 -45,0 -80,37 -80,85 0,13 3,24 7,36l67 0 15 -30c3,-6 13,-6 16,0l27 55 10 -19c3,-6 13,-6 16,0l10 19 27 -55c3,-6 13,-6 16,0l15 30 67 0c5,-11 7,-23 7,-36 0,-49 -35,-85 -80,-85zm0 138c-3,0 -6,-2 -8,-5l-10 -20 -27 55c-2,3 -5,5 -8,5 -3,0 -6,-2 -8,-5l-10 -19 -10 19c-3,6 -13,6 -16,0l-27 -55 -10 20c-1,3 -5,5 -8,5l-63 0c18,29 51,56 91,90 12,10 24,20 36,31 2,2 4,2 6,2 2,0 4,-1 6,-2 13,-11 25,-21 36,-31 41,-34 73,-61 91,-90l-63 0z"/>
+                                </svg>Администрирование медосмотра
+                            </div>  
+                            <ul class="submenuItems">
+                                <li><a href="medosmotr-admin.html">Медучреждения</a></li>
+                                <li><a href="#">Параметры размеров</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="dropdownlink">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M264 114c-2,-3 -4,-6 -5,-9 -5,-13 -2,-28 8,-37 3,-3 4,-8 1,-11 -7,-9 -15,-17 -24,-24 -3,-3 -8,-2 -11,1 -9,10 -25,14 -37,8 -13,-5 -21,-18 -20,-33 0,-4 -3,-8 -7,-9 -11,-1 -23,-1 -34,0 -4,0 -8,4 -7,9 1,14 -8,27 -21,32 -12,5 -28,1 -37,-9 -3,-3 -8,-4 -11,-1 -9,7 -17,15 -24,24 -3,3 -2,8 1,11 11,9 14,25 8,37 -5,12 -18,20 -33,20 -5,0 -8,3 -9,7 -1,11 -1,23 0,34 0,4 6,7 10,7 13,0 26,8 31,21 5,13 2,28 -8,37 -3,3 -4,8 -1,11 7,9 15,17 24,24 3,3 8,2 11,-1 9,-10 25,-14 37,-8 13,5 21,19 20,33 0,5 3,8 7,9 6,1 12,1 17,1 6,0 11,0 17,-1 4,-1 8,-4 7,-9 -1,-14 8,-27 21,-32 12,-5 28,-1 37,9 3,3 8,4 11,1 9,-7 17,-15 24,-24 3,-3 2,-8 -1,-11 -11,-9 -14,-25 -8,-37 1,-4 4,-7 6,-9l-58 0c-12,18 -33,31 -56,31 -20,0 -38,-10 -51,-24 -3,-4 -1,-7 3,-7l36 0c1,0 3,-1 3,-2l9 -16 10 -18 -10 -18 -9 -16c-1,-1 -2,-2 -3,-2l-36 0c-4,0 -6,-3 -3,-7 12,-14 30,-24 51,-24 24,0 44,12 56,31l58 0z"/>
+                                </svg>Администрирование СИЗ
+                            </div>  
+                            <ul class="submenuItems">
+                                <li><a href="siz-admin.html">СИЗ работника</a></li>
+                                <li><a href="siz-admin-accounts.html">Учетные записи</a></li>
+                                <li><a href="siz-admin-roles.html">Управление правами</a></li>
+                                <li><a href="siz-admin-questioning.html">Анкетирование</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="dropdownlink">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M214 137c3,-10 6,-17 1,-33 -28,12 -99,11 -128,0 -4,17 -1,22 1,33 3,10 6,8 17,27 22,48 71,48 94,0 2,-4 12,-21 15,-27zm-140 -54c0,-5 0,-9 12,-13 0,-19 13,-41 34,-53l0 26 9 0 0 -31c3,-1 4,-1 8,-3 6,-10 22,-10 27,0 3,1 4,1 8,3l0 31 9 0 0 -26c21,12 35,34 35,53 12,5 12,9 12,13 0,24 -153,24 -153,0zm124 99c-24,36 -71,36 -95,0 -5,3 -9,6 -13,8l0 45 -15 0 0 -39c-26,9 -52,17 -59,61 -3,17 1,27 19,33 61,13 171,13 231,0 19,-5 24,-15 19,-33 -8,-45 -34,-52 -59,-61l0 39 -15 0 0 -45c-4,-1 -9,-5 -13,-8l0 0z"/>
+                                </svg>Специалист ОТиПБ
+                            </div>  
+                            <ul class="submenuItems">
+                                <li><a href="spec-otipb.html">Редактировать медосмотр</a></li>
+                                <li><a href="spec-otipb-report.html">Сформировать отчет</a></li>
+                            </ul>
+                        </li>                
+                        <div class="block-devider dflex">
+                            <div class="devider"></div>
+                            <div style="color: #afc1c7; font-size: 13px;">ЗАПЧАСТИ</div>
+                        </div>
+                        <li>
+                            <a href="equipment.html">
+                            <div class="dropdown">
+                                <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                <path d="M44 0l212 0c10,0 19,8 19,19l0 262c0,10 -9,19 -19,19l-212 0c-10,0 -19,-8 -19,-19l0 -262c0,-10 8,-19 19,-19zm130 46c6,6 10,15 10,24 0,9 -4,17 -9,23 3,2 6,4 8,7 9,9 14,20 14,33 0,5 -4,9 -9,9 -5,0 -9,-4 -9,-9 0,-8 -3,-15 -8,-20 -5,-5 -12,-8 -20,-9l0 0 -1 0 -1 0 0 0c-8,0 -15,3 -20,8 -5,5 -9,13 -9,20 0,5 -4,9 -9,9 -5,0 -9,-4 -9,-9 0,-13 5,-24 14,-33 3,-3 5,-5 8,-7 -6,-6 -9,-14 -9,-23 0,-9 4,-18 10,-24 13,-13 36,-12 49,1zm-115 227c-5,0 -9,-4 -9,-9 0,-5 4,-9 9,-9l181 0c5,0 9,4 9,9 0,5 -4,9 -9,9l-181 0zm0 -46c-5,0 -9,-4 -9,-9 0,-5 4,-9 9,-9l181 0c5,0 9,4 9,9 0,5 -4,9 -9,9l-181 0zm0 -46c-5,0 -9,-4 -9,-9 0,-5 4,-9 9,-9l181 0c5,0 9,4 9,9 0,5 -4,9 -9,9l-181 0zm90 -97l1 0 1 0 0 0 0 0c4,0 8,-2 10,-5 3,-3 5,-7 5,-11 0,-4 -2,-8 -5,-11 -3,-3 -7,-5 -11,-5 -4,0 -8,2 -11,5 -3,3 -5,7 -5,11 0,4 2,8 5,11 3,3 6,5 10,5l0 0 0 0 0 0z"/>
+                                </svg>Заказ оборудования
+                            </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                    <a href="main.html" class="exit jcc">Выход</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row dflex column">
+        <div class="scroll-block-notab w100">
+            <div class="dflex jcc w100" style="background: white;">
+                <div class="worker">
+                    <div>
+                        <div class="avatar mr15"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="worker-info">
+                            <div class="tabnumber">Таб.№ 00001111</div>
+                            <div class="name mb10">Иванов Иван Петрович</div>
+                            <div style="font-weight: 400;" class="position ">Главный технолог-начальник технологической службы по подготовке нефти</div>
+                            <div class="tabnumber mb10">Технологическая служба по подготовке нефти</div>
+                        </div>
+                    </div>
+                    <div class="worker-active">
+                        <a href="#" class="open-modal icon-button" data-modal="#modal1">
+                            <svg class="evendodd mr15 green" width="23px" height="23px" viewBox="0 0 3200 3200">
+                            <path d="M2244 560l-1684 1684 0 -932 -560 0 0 1608c0,155 125,280 280,280l1608 0 0 -560 -932 0 1684 -1684 0 932 560 0 0 -1608c0,-155 -125,-280 -280,-280l-1608 0 0 560 932 0z"/>
+                            </svg>Размеры
+                        </a>
+                        <div class="modal" id="modal1">
+                            <div class="content">
+                                <div class="modal-title">МОИ РАЗМЕРЫ</div>                                    
+                                <div class="modal-inner">                                
+                                    <div class="jcc" style="font-size:20px;">
+                                        <div class="dfex column" style="line-height: 2; text-align: right; margin-right: 20px;">
+                                            <div>Рост</div>
+                                            <div>Обхват головы</div>
+                                            <div>Размер обуви</div>
+                                            <div>Размер валенка</div>
+                                            <div> Размер одежды</div>
+                                        </div>
+                                        <div class="dfex column" style="line-height: 2; text-align: left; font-weight: 700;">
+                                            <div>180</div>
+                                            <div>62</div>
+                                            <div>45</div>
+                                            <div>45</div>
+                                            <div>52</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class='close-modal' data-modal="#modal1" href="#">
+                                    <svg class="evendodd" width="20px" height="20px" viewBox="0 0 300 300">
+                                    <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z"/>
+                                    </svg>
+                                </a>
+                            </div>	
+                        </div>
+                        <a href="" class="icon-button">
+                            <svg class="evendodd mr15 green" width="23px" height="23px" viewBox="0 0 2400 2400">
+                            <path class="fil0" d="M1196 60c666,0 1204,516 1204,1144 0,636 -538,1144 -1204,1144 -225,0 -434,-56 -610,-161l-530 161 137 -524c-121,-177 -193,-394 -193,-628 0,-636 538,-1144 1204,-1144l-8 8zm-361 1482c-32,0 -64,-16 -89,-32 -24,-24 -32,-48 -32,-88 0,-33 16,-65 32,-89 25,-24 49,-32 89,-32l722 0c32,0 64,16 89,32 24,24 40,56 40,89 0,32 -16,64 -32,88 -25,24 -49,32 -89,32l-722 0 -8 0zm-201 -435c-32,0 -64,-16 -80,-40 -24,-24 -40,-56 -40,-81 0,-32 16,-64 32,-88 24,-24 56,-32 88,-32l1124 0c32,0 64,16 88,32 24,24 32,48 32,88 0,33 -16,65 -40,81 -24,24 -56,40 -80,40l-1124 0z"/>
+                            </svg>Анкетирование
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="jcc column">
+                <div class="block jcc column">
+                    <div class="jcb w100 mt60">
+                        <div style="font-weight: 700;" class="title">Изменить пароль</div>
+                        <a href="" class="icon-button">
+                            <svg class="evendodd mr15 green" width="23px" height="23px" viewBox="0 0 700 700">
+                            <path class="fil0" d="M700 184c-149,147 -299,294 -448,441 -84,-84 -168,-168 -252,-252 36,-36 72,-72 108,-108 49,48 97,97 145,145 114,-112 227,-223 341,-335 35,36 71,72 106,108z"/>
+                            </svg>Применить
+                        </a> 
+                    </div>  
+                    <input class="input mb10" type="text" placeholder="Старый пароль">
+                    <input class="input mb10" type="text" placeholder="Новый пароль">
+                    <input class="input mb10" type="text" placeholder="Повторить новый пароль">
+                    <hr>                    
+                    <div class="jcs w100">
+                        <div style="font-weight: 700;" class="title">Уведомления</div>
+                    </div>  
+                    <div class="active jcb">SMS-уведомления
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                    <div class="active jcb">Push-уведомления
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                    <div class="active jcb">Email-уведомления
+                        <input class="checkbox" type="checkbox">
+                    </div>
+                    <hr>
+                    <div style="width: 85%;" class="item">
+                        <div>Руководство пользования</div>
+                        <svg class="evendodd green" width="23px" height="23px" viewBox="0 0 300 300">
+                        <path fill-rule="nonzero" d="M98 0c44,50 89,100 133,150 -44,50 -89,100 -133,150 -10,-9 -19,-17 -29,-26 37,-41 74,-83 110,-124 -37,-42 -74,-83 -110,-124 10,-9 19,-17 29,-26z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+        AOS.init();
+      </script>
+</body></html>
